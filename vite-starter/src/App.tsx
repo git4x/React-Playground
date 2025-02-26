@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import { FunctionInitialzier } from './FunctionInitialzier'
 
 function App() {
   console.log('render', Math.random())
@@ -18,9 +19,10 @@ function App() {
       <div className="card">
         <button onClick={handleClick}>
           count is {count}
-        </button>
-        
+        </button> 
       </div>
+
+      <FunctionInitialzier />
     </>
   )
 }
